@@ -5,8 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystal Collector - Bill Papas Edition</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-   <h1>Crystal Collector</h1> 
+    <Header>
+        <h1>Crystal Collector</h1> 
+    </Header>
+    <div class="center">
+        <div id="instructions">
+            <p>The object of the game is to match the score displayed below. Each crystal has a randomly generated value.</p>
+        </div>
+        <div class="game">
+            <div class="crystals">
+                <img id="c1" src="assets/images/Crystal-1.png" alt="Crystal-1">
+                <img id="c2" src="assets/images/Crystal-2.png" alt="Crystal-2">
+                <img id="c3" src="assets/images/Crystal-3.png" alt="Crystal-3">
+                <img id="c4" src="assets/images/Crystal-4.png" alt="Crystal-4">
+            </div>
+            <div class="numbers">
+                <span id="target">target</span>
+                <span id="currentscore">current</span>
+            </div>
+            <div class="w-l">
+                <span id="wins">Wins</span>
+                <span id="loses">Loses</span>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

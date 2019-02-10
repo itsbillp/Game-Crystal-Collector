@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    width: 680px;
+    margin: 0 auto;
+    border: solid red;
+}
+.center {
+    display: block;
+    /* margin: 10px; */
+    border: solid red;
+}
+#instructions {
+    border: solid red;
+}
+.game {
+    border: solid red;
+}
+.crystals {
+    border: solid green;
+}
+#c1, #c2, #c3, #c4 {
+    display: inline;
+    border: solid green;
+    width: 120px;
+    /* height: 200px; */
+    
+}
